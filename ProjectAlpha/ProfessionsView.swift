@@ -15,6 +15,11 @@ struct ProfessionsView: View {
                     currentlyLearningCard
                 }
                 
+                Section("Related to profession") {
+                    communityCard
+                    vacancyCard
+                }
+                
                 Section("Professions"){
                     ForEach(0..<4, id: \.self) { _ in
                         NavigationLink {
@@ -27,6 +32,48 @@ struct ProfessionsView: View {
                 }
             }
             .navigationTitle("Professions")
+        }
+    }
+    
+    var communityCard: some View {
+        HStack {
+            VStack(alignment: .leading, spacing: 16) {
+                HStack {
+                    Text("Profession Group").bold()
+                    Spacer()
+                    Text("Mon").italic().font(.callout)
+                }
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("#username")
+                        .font(.callout)
+                        .bold()
+                    Text("This is an example message...")
+                        .font(.callout)
+                        .padding(.all, 4)
+                        .background(.regularMaterial)
+                        .clipShape(RoundedRectangle(cornerRadius: 4))
+                }
+            }
+        }
+    }
+    
+    var vacancyCard: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            VStack(alignment: .leading) {
+                HStack {
+                    Text("Vacancy Name").bold()
+                    Spacer()
+                    Button {} label: {
+                        Text("Save")
+                            .padding(.horizontal, 8)
+                            .background(.regularMaterial)
+                            .clipShape(RoundedRectangle(cornerRadius: 6))
+                    }
+                }
+                Text("Salary Range")
+                    .font(.callout)
+            }
+            Text("Company Name")
         }
     }
     
