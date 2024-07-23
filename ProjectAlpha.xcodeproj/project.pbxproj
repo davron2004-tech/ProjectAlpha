@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31847322C5014BF00A1EB27 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31847312C5014BF00A1EB27 /* TabsView.swift */; };
+		A31847342C5014FF00A1EB27 /* ProfessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31847332C5014FF00A1EB27 /* ProfessionsView.swift */; };
 		DDA645452C4FB45400375998 /* ProjectAlphaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA645442C4FB45400375998 /* ProjectAlphaApp.swift */; };
 		DDA645472C4FB45400375998 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA645462C4FB45400375998 /* WelcomeView.swift */; };
 		DDA645492C4FB45600375998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA645482C4FB45600375998 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A31847312C5014BF00A1EB27 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		A31847332C5014FF00A1EB27 /* ProfessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionsView.swift; sourceTree = "<group>"; };
 		DDA645412C4FB45400375998 /* ProjectAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA645442C4FB45400375998 /* ProjectAlphaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAlphaApp.swift; sourceTree = "<group>"; };
 		DDA645462C4FB45400375998 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				DDA645442C4FB45400375998 /* ProjectAlphaApp.swift */,
+				A31847312C5014BF00A1EB27 /* TabsView.swift */,
+				A31847332C5014FF00A1EB27 /* ProfessionsView.swift */,
 				DDA645462C4FB45400375998 /* WelcomeView.swift */,
 				DDB03A862C4FCFDA005BFD8A /* SignUpView.swift */,
 				DDB03A842C4FCFC7005BFD8A /* LogInView.swift */,
@@ -145,8 +151,10 @@
 			files = (
 				DDA645472C4FB45400375998 /* WelcomeView.swift in Sources */,
 				DDB03A852C4FCFC7005BFD8A /* LogInView.swift in Sources */,
+				A31847342C5014FF00A1EB27 /* ProfessionsView.swift in Sources */,
 				DDA645452C4FB45400375998 /* ProjectAlphaApp.swift in Sources */,
 				DDB03A872C4FCFDA005BFD8A /* SignUpView.swift in Sources */,
+				A31847322C5014BF00A1EB27 /* TabsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
