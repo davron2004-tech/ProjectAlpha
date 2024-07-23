@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		DDA645452C4FB45400375998 /* ProjectAlphaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA645442C4FB45400375998 /* ProjectAlphaApp.swift */; };
-		DDA645472C4FB45400375998 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA645462C4FB45400375998 /* ContentView.swift */; };
+		DDA645472C4FB45400375998 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA645462C4FB45400375998 /* WelcomeView.swift */; };
 		DDA645492C4FB45600375998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA645482C4FB45600375998 /* Assets.xcassets */; };
 		DDA6454C2C4FB45600375998 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA6454B2C4FB45600375998 /* Preview Assets.xcassets */; };
+		DDB03A852C4FCFC7005BFD8A /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB03A842C4FCFC7005BFD8A /* LogInView.swift */; };
+		DDB03A872C4FCFDA005BFD8A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB03A862C4FCFDA005BFD8A /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DDA645412C4FB45400375998 /* ProjectAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA645442C4FB45400375998 /* ProjectAlphaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAlphaApp.swift; sourceTree = "<group>"; };
-		DDA645462C4FB45400375998 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDA645462C4FB45400375998 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		DDA645482C4FB45600375998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDA6454B2C4FB45600375998 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDB03A842C4FCFC7005BFD8A /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		DDB03A862C4FCFDA005BFD8A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				DDA645442C4FB45400375998 /* ProjectAlphaApp.swift */,
-				DDA645462C4FB45400375998 /* ContentView.swift */,
+				DDA645462C4FB45400375998 /* WelcomeView.swift */,
+				DDB03A862C4FCFDA005BFD8A /* SignUpView.swift */,
+				DDB03A842C4FCFC7005BFD8A /* LogInView.swift */,
 				DDA645482C4FB45600375998 /* Assets.xcassets */,
 				DDA6454A2C4FB45600375998 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA645472C4FB45400375998 /* ContentView.swift in Sources */,
+				DDA645472C4FB45400375998 /* WelcomeView.swift in Sources */,
+				DDB03A852C4FCFC7005BFD8A /* LogInView.swift in Sources */,
 				DDA645452C4FB45400375998 /* ProjectAlphaApp.swift in Sources */,
+				DDB03A872C4FCFDA005BFD8A /* SignUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
