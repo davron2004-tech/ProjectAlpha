@@ -10,6 +10,9 @@
 		A31847322C5014BF00A1EB27 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31847312C5014BF00A1EB27 /* TabsView.swift */; };
 		A31847342C5014FF00A1EB27 /* ProfessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31847332C5014FF00A1EB27 /* ProfessionsView.swift */; };
 		A3BADCD82C506C9400FDD9CE /* LearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BADCD72C506C9400FDD9CE /* LearningView.swift */; };
+		A3BE55C02C514D660000739D /* ProfessionInDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BE55BF2C514D660000739D /* ProfessionInDetailView.swift */; };
+		A3EC99F22C522A8F009A893B /* ResumeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC99F12C522A8F009A893B /* ResumeDataModel.swift */; };
+		A3EC99F42C522ACB009A893B /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC99F32C522ACB009A893B /* UserDataModel.swift */; };
 		DDA645452C4FB45400375998 /* ProjectAlphaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA645442C4FB45400375998 /* ProjectAlphaApp.swift */; };
 		DDA645472C4FB45400375998 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA645462C4FB45400375998 /* WelcomeView.swift */; };
 		DDA645492C4FB45600375998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA645482C4FB45600375998 /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 		A31847312C5014BF00A1EB27 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		A31847332C5014FF00A1EB27 /* ProfessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionsView.swift; sourceTree = "<group>"; };
 		A3BADCD72C506C9400FDD9CE /* LearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningView.swift; sourceTree = "<group>"; };
+		A3BE55BF2C514D660000739D /* ProfessionInDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionInDetailView.swift; sourceTree = "<group>"; };
+		A3EC99F12C522A8F009A893B /* ResumeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeDataModel.swift; sourceTree = "<group>"; };
+		A3EC99F32C522ACB009A893B /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
 		DDA645412C4FB45400375998 /* ProjectAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA645442C4FB45400375998 /* ProjectAlphaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAlphaApp.swift; sourceTree = "<group>"; };
 		DDA645462C4FB45400375998 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -42,6 +48,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3EC99EF2C522A53009A893B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A31847312C5014BF00A1EB27 /* TabsView.swift */,
+				A31847332C5014FF00A1EB27 /* ProfessionsView.swift */,
+				A3BADCD72C506C9400FDD9CE /* LearningView.swift */,
+				A3BE55BF2C514D660000739D /* ProfessionInDetailView.swift */,
+				DDA645462C4FB45400375998 /* WelcomeView.swift */,
+				DDB03A862C4FCFDA005BFD8A /* SignUpView.swift */,
+				DDB03A842C4FCFC7005BFD8A /* LogInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A3EC99F02C522A5D009A893B /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				A3EC99F12C522A8F009A893B /* ResumeDataModel.swift */,
+				A3EC99F32C522ACB009A893B /* UserDataModel.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
 		DDA645382C4FB45400375998 = {
 			isa = PBXGroup;
 			children = (
@@ -61,13 +90,9 @@
 		DDA645432C4FB45400375998 /* ProjectAlpha */ = {
 			isa = PBXGroup;
 			children = (
+				A3EC99F02C522A5D009A893B /* DataModels */,
 				DDA645442C4FB45400375998 /* ProjectAlphaApp.swift */,
-				A31847312C5014BF00A1EB27 /* TabsView.swift */,
-				A31847332C5014FF00A1EB27 /* ProfessionsView.swift */,
-				A3BADCD72C506C9400FDD9CE /* LearningView.swift */,
-				DDA645462C4FB45400375998 /* WelcomeView.swift */,
-				DDB03A862C4FCFDA005BFD8A /* SignUpView.swift */,
-				DDB03A842C4FCFC7005BFD8A /* LogInView.swift */,
+				A3EC99EF2C522A53009A893B /* Views */,
 				DDA645482C4FB45600375998 /* Assets.xcassets */,
 				DDA6454A2C4FB45600375998 /* Preview Content */,
 			);
@@ -154,11 +179,14 @@
 			files = (
 				DDA645472C4FB45400375998 /* WelcomeView.swift in Sources */,
 				DDB03A852C4FCFC7005BFD8A /* LogInView.swift in Sources */,
+				A3EC99F42C522ACB009A893B /* UserDataModel.swift in Sources */,
 				A31847342C5014FF00A1EB27 /* ProfessionsView.swift in Sources */,
 				DDA645452C4FB45400375998 /* ProjectAlphaApp.swift in Sources */,
+				A3BE55C02C514D660000739D /* ProfessionInDetailView.swift in Sources */,
 				DDB03A872C4FCFDA005BFD8A /* SignUpView.swift in Sources */,
 				A3BADCD82C506C9400FDD9CE /* LearningView.swift in Sources */,
 				A31847322C5014BF00A1EB27 /* TabsView.swift in Sources */,
+				A3EC99F22C522A8F009A893B /* ResumeDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@ struct WelcomeView: View {
                     .font(.system(size: 40))
                 Spacer()
                 NavigationLink{
-                    
+                    TabsView()
                 }label: {
                     Text("Register later")
                         .underline()

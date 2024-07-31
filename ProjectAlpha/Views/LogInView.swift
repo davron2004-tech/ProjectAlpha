@@ -30,7 +30,7 @@ struct LogInView: View {
                     }
                     .padding(.vertical)
                 NavigationLink{
-                    
+                    TabsView()
                 }label: {
                     Text("Continue")
                         .fontWeight(.bold)

@@ -73,7 +73,7 @@ struct SignUpView: View {
                     }
                     .padding(.vertical)
                 NavigationLink{
-                    
+                    TabsView()
                 }label: {
                     Text("Register")
                         .fontWeight(.bold)
